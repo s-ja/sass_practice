@@ -1,0 +1,15 @@
+$primary_color : #eac4c4;
+
+p {
+    color: $primary_color;
+    &:hover strong {
+        color: lighten($primary_color, 10%);
+    }
+}
+body{
+    background: slategray;
+}
+h1{
+    text-transform: uppercase;
+    color: darken($primary_color,20%);
+}
