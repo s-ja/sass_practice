@@ -1,1 +1,31 @@
-p{color:#eac4c4}p:hover strong{color:#f7eaea}body{background:slategray}h1{text-transform:uppercase;color:#cf7979}
+p {
+  color: #eac4c4;
+}
+p:hover strong {
+  color: #f7eaea;
+}
+
+body {
+  background: slategray;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #cf7979;
+}
+
+header {
+  color: white;
+}
+header p {
+  color: #eac4c4;
+  font-size: 16px;
+}
+header strong {
+  text-transform: uppercase;
+}
+header a {
+  text-decoration: overline underline;
+}
+
+/*# sourceMappingURL=main.css.map */

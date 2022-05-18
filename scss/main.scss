@@ -1,4 +1,5 @@
 $primary_color : #eac4c4;
+$font_size_default : 16px;
 
 p {
     color: $primary_color;
@@ -12,4 +13,15 @@ body{
 h1{
     text-transform: uppercase;
     color: darken($primary_color,20%);
+}
+header{
+    p{
+        color: $primary_color;
+        font-size: $font_size_default;
+    }
+    strong{
+        text-transform: uppercase;
+    }
+    a{text-decoration: overline underline;}
+    color: lighten($primary_color,20%);
 }
