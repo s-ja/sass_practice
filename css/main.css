@@ -14,9 +14,6 @@ h1 {
   color: #cf7979;
 }
 
-header {
-  color: white;
-}
 header p {
   color: #eac4c4;
   font-size: 16px;
@@ -26,6 +23,7 @@ header strong {
 }
 header a {
   text-decoration: overline underline;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
